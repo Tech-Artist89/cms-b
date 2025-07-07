@@ -2149,3 +2149,175 @@ WARNING 2025-07-07 17:24:59,707 basehttp 12164 32928 "GET /api/v1/projects/proje
 INFO 2025-07-07 17:25:03,167 basehttp 12164 32928 "OPTIONS /api/v1/projects/projects/ HTTP/1.1" 200 0
 WARNING 2025-07-07 17:25:03,169 log 12164 32928 Unauthorized: /api/v1/projects/projects/
 WARNING 2025-07-07 17:25:03,169 basehttp 12164 32928 "GET /api/v1/projects/projects/ HTTP/1.1" 401 193
+INFO 2025-07-07 20:37:04,894 autoreload 54054 127423289192576 Watching for file changes with StatReloader
+INFO 2025-07-07 20:49:06,799 autoreload 61380 125745933987968 Watching for file changes with StatReloader
+INFO 2025-07-07 20:50:45,414 basehttp 61380 125745248597696 "OPTIONS /api/v1/auth/token/ HTTP/1.1" 200 0
+WARNING 2025-07-07 20:50:45,735 log 61380 125745248597696 Unauthorized: /api/v1/auth/token/
+WARNING 2025-07-07 20:50:45,736 basehttp 61380 125745248597696 "POST /api/v1/auth/token/ HTTP/1.1" 401 66
+WARNING 2025-07-07 20:50:51,410 log 61380 125745248597696 Unauthorized: /api/v1/auth/token/
+WARNING 2025-07-07 20:50:51,410 basehttp 61380 125745248597696 "POST /api/v1/auth/token/ HTTP/1.1" 401 66
+WARNING 2025-07-07 20:50:54,961 log 61380 125745248597696 Unauthorized: /api/v1/auth/token/
+WARNING 2025-07-07 20:50:54,961 basehttp 61380 125745248597696 "POST /api/v1/auth/token/ HTTP/1.1" 401 66
+WARNING 2025-07-07 20:51:03,031 log 61380 125745248597696 Unauthorized: /api/v1/auth/token/
+WARNING 2025-07-07 20:51:03,031 basehttp 61380 125745248597696 "POST /api/v1/auth/token/ HTTP/1.1" 401 66
+WARNING 2025-07-07 20:51:07,932 log 61380 125745248597696 Unauthorized: /api/v1/auth/token/
+WARNING 2025-07-07 20:51:07,932 basehttp 61380 125745248597696 "POST /api/v1/auth/token/ HTTP/1.1" 401 66
+WARNING 2025-07-07 20:51:15,561 log 61380 125745166808768 Not Found: /
+WARNING 2025-07-07 20:51:15,562 basehttp 61380 125745166808768 "GET / HTTP/1.1" 404 3727
+WARNING 2025-07-07 20:51:15,635 log 61380 125745166808768 Not Found: /favicon.ico
+WARNING 2025-07-07 20:51:15,635 basehttp 61380 125745166808768 "GET /favicon.ico HTTP/1.1" 404 3778
+INFO 2025-07-07 20:51:21,080 basehttp 61380 125745166808768 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-07-07 20:51:21,123 basehttp 61380 125745166808768 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4219
+INFO 2025-07-07 20:51:21,187 basehttp 61380 125745158416064 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2025-07-07 20:51:21,188 basehttp 61380 125745166808768 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2025-07-07 20:51:21,189 basehttp 61380 125745133237952 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2025-07-07 20:51:21,189 basehttp 61380 125745150023360 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+INFO 2025-07-07 20:51:21,189 basehttp 61380 125745124845248 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2025-07-07 20:51:21,189 basehttp 61380 125745141630656 "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+INFO 2025-07-07 20:51:21,192 basehttp 61380 125745150023360 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-07-07 20:51:24,156 basehttp 61380 125745150023360 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4393
+INFO 2025-07-07 20:54:28,764 autoreload 65749 128250392518784 Watching for file changes with StatReloader
+INFO 2025-07-07 20:54:32,813 basehttp 65749 128249705264832 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-07-07 20:54:32,885 basehttp 65749 128249705264832 "GET /admin/ HTTP/1.1" 200 21021
+INFO 2025-07-07 20:54:32,937 basehttp 65749 128249705264832 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-07-07 20:54:32,942 basehttp 65749 128249696872128 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-07-07 20:54:32,942 basehttp 65749 128249688479424 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-07-07 20:54:32,944 basehttp 65749 128249468286656 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-07-07 20:54:32,945 basehttp 65749 128249459893952 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-07-07 20:54:32,947 basehttp 65749 128249688479424 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-07-07 20:54:32,947 basehttp 65749 128249680086720 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-07-07 20:54:32,983 basehttp 65749 128249705264832 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-07-07 20:54:32,983 basehttp 65749 128249680086720 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-07-07 20:55:00,743 basehttp 65749 128249451501248 "POST /api/v1/auth/token/ HTTP/1.1" 200 483
+INFO 2025-07-07 20:55:00,765 basehttp 65749 128249451501248 "OPTIONS /api/v1/customers/customers/ HTTP/1.1" 200 0
+INFO 2025-07-07 20:55:00,824 basehttp 65749 128249451501248 "GET /api/v1/customers/customers/ HTTP/1.1" 200 52
+INFO 2025-07-07 20:55:24,919 basehttp 65749 128249451501248 "GET /api/v1/customers/customers/ HTTP/1.1" 200 52
+INFO 2025-07-07 20:55:27,854 basehttp 65749 128249451501248 "OPTIONS /api/v1/quotes/quotes/ HTTP/1.1" 200 0
+INFO 2025-07-07 20:55:27,871 basehttp 65749 128249451501248 "GET /api/v1/quotes/quotes/ HTTP/1.1" 200 52
+INFO 2025-07-07 20:55:29,868 basehttp 65749 128249451501248 "OPTIONS /api/v1/projects/projects/ HTTP/1.1" 200 0
+INFO 2025-07-07 20:55:29,885 basehttp 65749 128249451501248 "GET /api/v1/projects/projects/ HTTP/1.1" 200 52
+INFO 2025-07-07 20:55:32,772 basehttp 65749 128249451501248 "OPTIONS /api/v1/invoices/invoices/ HTTP/1.1" 200 0
+INFO 2025-07-07 20:55:32,787 basehttp 65749 128249451501248 "GET /api/v1/invoices/invoices/ HTTP/1.1" 200 52
+INFO 2025-07-07 20:55:33,957 basehttp 65749 128249451501248 "OPTIONS /api/v1/timetracking/entries/ HTTP/1.1" 200 0
+INFO 2025-07-07 20:55:33,961 basehttp 65749 128249443108544 "OPTIONS /api/v1/timetracking/entries/my_entries/ HTTP/1.1" 200 0
+INFO 2025-07-07 20:55:33,983 basehttp 65749 128249451501248 "GET /api/v1/timetracking/entries/ HTTP/1.1" 200 52
+INFO 2025-07-07 20:55:33,986 basehttp 65749 128249443108544 "GET /api/v1/timetracking/entries/my_entries/ HTTP/1.1" 200 2
+INFO 2025-07-07 20:55:38,865 basehttp 65749 128249443108544 "OPTIONS /api/v1/schedules/appointments/today/ HTTP/1.1" 200 0
+INFO 2025-07-07 20:55:38,868 basehttp 65749 128249451501248 "OPTIONS /api/v1/schedules/appointments/upcoming/?days=7 HTTP/1.1" 200 0
+INFO 2025-07-07 20:55:38,872 basehttp 65749 128249451501248 "OPTIONS /api/v1/schedules/appointments/?start_date=2025-06-30&end_date=2025-07-30 HTTP/1.1" 200 0
+INFO 2025-07-07 20:55:38,885 basehttp 65749 128249443108544 "GET /api/v1/schedules/appointments/today/ HTTP/1.1" 200 2
+INFO 2025-07-07 20:55:38,887 basehttp 65749 128249434715840 "GET /api/v1/schedules/appointments/upcoming/?days=7 HTTP/1.1" 200 2
+INFO 2025-07-07 20:55:38,927 basehttp 65749 128249451501248 "GET /api/v1/schedules/appointments/?start_date=2025-06-30&end_date=2025-07-30 HTTP/1.1" 200 52
+INFO 2025-07-07 20:55:52,113 basehttp 65749 128249451501248 "GET /api/v1/timetracking/entries/ HTTP/1.1" 200 52
+INFO 2025-07-07 20:55:52,115 basehttp 65749 128249443108544 "GET /api/v1/timetracking/entries/my_entries/ HTTP/1.1" 200 2
+WARNING 2025-07-07 20:55:53,690 log 65749 128249443108544 Bad Request: /api/v1/timetracking/entries/
+WARNING 2025-07-07 20:55:53,690 basehttp 65749 128249443108544 "POST /api/v1/timetracking/entries/ HTTP/1.1" 400 46
+INFO 2025-07-07 20:57:28,627 basehttp 65749 128249443108544 "GET /api/v1/timetracking/entries/ HTTP/1.1" 200 52
+INFO 2025-07-07 20:57:28,629 basehttp 65749 128249451501248 "GET /api/v1/timetracking/entries/my_entries/ HTTP/1.1" 200 2
+INFO 2025-07-07 20:57:30,359 basehttp 65749 128249451501248 "GET /api/v1/schedules/appointments/today/ HTTP/1.1" 200 2
+INFO 2025-07-07 20:57:30,362 basehttp 65749 128249443108544 "GET /api/v1/schedules/appointments/upcoming/?days=7 HTTP/1.1" 200 2
+INFO 2025-07-07 20:57:30,364 basehttp 65749 128249434715840 "GET /api/v1/schedules/appointments/?start_date=2025-06-30&end_date=2025-07-30 HTTP/1.1" 200 52
+INFO 2025-07-07 20:57:33,507 basehttp 65749 128249434715840 "GET /api/v1/schedules/appointments/today/ HTTP/1.1" 200 2
+INFO 2025-07-07 20:57:33,510 basehttp 65749 128249443108544 "GET /api/v1/schedules/appointments/upcoming/?days=7 HTTP/1.1" 200 2
+INFO 2025-07-07 20:57:33,510 basehttp 65749 128249451501248 "GET /api/v1/schedules/appointments/?start_date=2025-06-30&end_date=2025-07-30 HTTP/1.1" 200 52
+INFO 2025-07-07 20:58:22,275 basehttp 65749 128249451501248 "GET /api/v1/timetracking/entries/ HTTP/1.1" 200 52
+INFO 2025-07-07 20:58:22,279 basehttp 65749 128249443108544 "GET /api/v1/timetracking/entries/my_entries/ HTTP/1.1" 200 2
+WARNING 2025-07-07 21:01:08,355 log 65749 128249443108544 Unauthorized: /api/v1/projects/projects/
+WARNING 2025-07-07 21:01:08,356 basehttp 65749 128249443108544 "GET /api/v1/projects/projects/ HTTP/1.1" 401 193
+WARNING 2025-07-07 21:01:13,008 log 65749 128249443108544 Unauthorized: /api/v1/projects/projects/
+WARNING 2025-07-07 21:01:13,009 basehttp 65749 128249443108544 "GET /api/v1/projects/projects/ HTTP/1.1" 401 193
+WARNING 2025-07-07 21:01:15,225 log 65749 128249443108544 Unauthorized: /api/v1/quotes/quotes/
+WARNING 2025-07-07 21:01:15,225 basehttp 65749 128249443108544 "GET /api/v1/quotes/quotes/ HTTP/1.1" 401 193
+WARNING 2025-07-07 21:01:32,293 log 65749 128249443108544 Unauthorized: /api/v1/quotes/quotes/
+WARNING 2025-07-07 21:01:32,293 basehttp 65749 128249443108544 "GET /api/v1/quotes/quotes/ HTTP/1.1" 401 193
+WARNING 2025-07-07 21:01:34,524 log 65749 128249443108544 Unauthorized: /api/v1/customers/customers/
+WARNING 2025-07-07 21:01:34,524 basehttp 65749 128249443108544 "GET /api/v1/customers/customers/ HTTP/1.1" 401 193
+WARNING 2025-07-07 21:01:36,270 log 65749 128249443108544 Unauthorized: /api/v1/projects/projects/
+WARNING 2025-07-07 21:01:36,270 basehttp 65749 128249443108544 "GET /api/v1/projects/projects/ HTTP/1.1" 401 193
+WARNING 2025-07-07 21:01:40,058 log 65749 128249443108544 Unauthorized: /api/v1/projects/projects/
+WARNING 2025-07-07 21:01:40,058 basehttp 65749 128249443108544 "GET /api/v1/projects/projects/ HTTP/1.1" 401 193
+WARNING 2025-07-07 21:01:41,300 log 65749 128249443108544 Unauthorized: /api/v1/invoices/invoices/
+WARNING 2025-07-07 21:01:41,301 basehttp 65749 128249443108544 "GET /api/v1/invoices/invoices/ HTTP/1.1" 401 193
+WARNING 2025-07-07 21:01:42,844 log 65749 128249443108544 Unauthorized: /api/v1/invoices/invoices/
+WARNING 2025-07-07 21:01:42,845 basehttp 65749 128249443108544 "GET /api/v1/invoices/invoices/ HTTP/1.1" 401 193
+WARNING 2025-07-07 21:03:36,210 log 65749 128249451501248 Unauthorized: /api/v1/projects/projects/
+WARNING 2025-07-07 21:03:36,211 basehttp 65749 128249451501248 "GET /api/v1/projects/projects/ HTTP/1.1" 401 193
+WARNING 2025-07-07 21:03:40,028 log 65749 128249451501248 Unauthorized: /api/v1/invoices/invoices/
+WARNING 2025-07-07 21:03:40,029 basehttp 65749 128249451501248 "GET /api/v1/invoices/invoices/ HTTP/1.1" 401 193
+WARNING 2025-07-07 21:10:15,356 log 65749 128249451501248 Unauthorized: /api/v1/timetracking/entries/
+WARNING 2025-07-07 21:10:15,356 basehttp 65749 128249451501248 "GET /api/v1/timetracking/entries/ HTTP/1.1" 401 193
+WARNING 2025-07-07 21:10:15,359 log 65749 128249451501248 Unauthorized: /api/v1/timetracking/entries/my_entries/
+WARNING 2025-07-07 21:10:15,359 basehttp 65749 128249451501248 "GET /api/v1/timetracking/entries/my_entries/ HTTP/1.1" 401 193
+WARNING 2025-07-07 21:10:16,646 log 65749 128249451501248 Unauthorized: /api/v1/timetracking/entries/
+WARNING 2025-07-07 21:10:16,646 basehttp 65749 128249451501248 "POST /api/v1/timetracking/entries/ HTTP/1.1" 401 193
+WARNING 2025-07-07 21:11:21,002 log 65749 128249451501248 Unauthorized: /api/v1/schedules/appointments/today/
+WARNING 2025-07-07 21:11:21,003 basehttp 65749 128249451501248 "GET /api/v1/schedules/appointments/today/ HTTP/1.1" 401 193
+WARNING 2025-07-07 21:11:21,005 log 65749 128249451501248 Unauthorized: /api/v1/schedules/appointments/upcoming/
+WARNING 2025-07-07 21:11:21,006 basehttp 65749 128249451501248 "GET /api/v1/schedules/appointments/upcoming/?days=7 HTTP/1.1" 401 193
+WARNING 2025-07-07 21:11:21,009 log 65749 128249443108544 Unauthorized: /api/v1/schedules/appointments/
+WARNING 2025-07-07 21:11:21,009 basehttp 65749 128249443108544 "GET /api/v1/schedules/appointments/?start_date=2025-06-30&end_date=2025-07-30 HTTP/1.1" 401 193
+WARNING 2025-07-07 21:40:58,930 log 65749 128249451501248 Unauthorized: /api/v1/customers/customers/
+WARNING 2025-07-07 21:40:58,930 basehttp 65749 128249451501248 "GET /api/v1/customers/customers/ HTTP/1.1" 401 193
+INFO 2025-07-07 21:40:58,937 basehttp 65749 128249451501248 "OPTIONS /api/v1/auth/token/refresh/ HTTP/1.1" 200 0
+INFO 2025-07-07 21:40:58,981 basehttp 65749 128249451501248 "POST /api/v1/auth/token/refresh/ HTTP/1.1" 200 241
+INFO 2025-07-07 21:40:59,041 basehttp 65749 128249451501248 "GET /api/v1/customers/customers/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:41:01,848 basehttp 65749 128249451501248 "GET /api/v1/quotes/quotes/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:41:03,549 basehttp 65749 128249451501248 "GET /api/v1/projects/projects/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:41:05,377 basehttp 65749 128249451501248 "GET /api/v1/invoices/invoices/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:41:15,162 basehttp 65749 128249451501248 "GET /api/v1/customers/customers/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:41:18,039 basehttp 65749 128249451501248 "GET /api/v1/quotes/quotes/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:41:19,109 basehttp 65749 128249451501248 "GET /api/v1/projects/projects/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:41:24,953 basehttp 65749 128249451501248 "GET /api/v1/timetracking/entries/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:41:24,957 basehttp 65749 128249443108544 "GET /api/v1/timetracking/entries/my_entries/ HTTP/1.1" 200 2
+INFO 2025-07-07 21:41:28,584 basehttp 65749 128249443108544 "GET /api/v1/schedules/appointments/today/ HTTP/1.1" 200 2
+INFO 2025-07-07 21:41:28,584 basehttp 65749 128249451501248 "GET /api/v1/schedules/appointments/upcoming/?days=7 HTTP/1.1" 200 2
+INFO 2025-07-07 21:41:28,586 basehttp 65749 128249434715840 "GET /api/v1/schedules/appointments/?start_date=2025-06-30&end_date=2025-07-30 HTTP/1.1" 200 52
+INFO 2025-07-07 21:41:30,909 basehttp 65749 128249451501248 "GET /api/v1/timetracking/entries/my_entries/ HTTP/1.1" 200 2
+INFO 2025-07-07 21:41:30,912 basehttp 65749 128249434715840 "GET /api/v1/timetracking/entries/ HTTP/1.1" 200 52
+WARNING 2025-07-07 21:41:32,785 log 65749 128249434715840 Bad Request: /api/v1/timetracking/entries/
+WARNING 2025-07-07 21:41:32,785 basehttp 65749 128249434715840 "POST /api/v1/timetracking/entries/ HTTP/1.1" 400 46
+WARNING 2025-07-07 21:42:01,256 log 65749 128249434715840 Bad Request: /api/v1/timetracking/entries/
+WARNING 2025-07-07 21:42:01,256 basehttp 65749 128249434715840 "POST /api/v1/timetracking/entries/ HTTP/1.1" 400 46
+INFO 2025-07-07 21:42:15,440 basehttp 65749 128249434715840 "GET /api/v1/invoices/invoices/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:42:18,279 basehttp 65749 128249434715840 "GET /api/v1/quotes/quotes/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:42:20,700 basehttp 65749 128249434715840 "GET /api/v1/projects/projects/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:42:23,334 basehttp 65749 128249434715840 "GET /api/v1/projects/projects/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:42:25,933 basehttp 65749 128249434715840 "GET /api/v1/projects/projects/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:42:28,561 basehttp 65749 128249434715840 "GET /api/v1/quotes/quotes/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:42:32,434 basehttp 65749 128249434715840 "GET /api/v1/quotes/quotes/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:42:34,815 basehttp 65749 128249434715840 "GET /api/v1/projects/projects/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:42:37,341 basehttp 65749 128249434715840 "GET /api/v1/projects/projects/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:42:38,336 basehttp 65749 128249434715840 "GET /api/v1/quotes/quotes/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:42:40,328 basehttp 65749 128249434715840 "GET /api/v1/quotes/quotes/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:42:41,268 basehttp 65749 128249434715840 "GET /api/v1/customers/customers/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:42:44,255 basehttp 65749 128249434715840 "GET /api/v1/customers/customers/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:43:46,400 autoreload 101924 132319867510912 Watching for file changes with StatReloader
+INFO 2025-07-07 21:44:13,911 basehttp 101924 132319176292032 "GET /api/v1/projects/projects/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:44:16,260 basehttp 101924 132319176292032 "GET /api/v1/schedules/appointments/today/ HTTP/1.1" 200 2
+INFO 2025-07-07 21:44:16,264 basehttp 101924 132319167899328 "GET /api/v1/schedules/appointments/upcoming/?days=7 HTTP/1.1" 200 2
+INFO 2025-07-07 21:44:16,268 basehttp 101924 132319084017344 "GET /api/v1/schedules/appointments/?start_date=2025-06-30&end_date=2025-07-30 HTTP/1.1" 200 52
+INFO 2025-07-07 21:44:17,419 basehttp 101924 132319084017344 "GET /api/v1/timetracking/entries/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:44:17,422 basehttp 101924 132319167899328 "GET /api/v1/timetracking/entries/my_entries/ HTTP/1.1" 200 2
+WARNING 2025-07-07 21:44:18,421 log 101924 132319167899328 Bad Request: /api/v1/timetracking/entries/
+WARNING 2025-07-07 21:44:18,421 basehttp 101924 132319167899328 "POST /api/v1/timetracking/entries/ HTTP/1.1" 400 46
+INFO 2025-07-07 21:44:20,259 basehttp 101924 132319167899328 "GET /api/v1/timetracking/entries/ HTTP/1.1" 200 52
+WARNING 2025-07-07 21:49:44,910 log 101924 132319167899328 Unauthorized: /api/v1/schedules/appointments/today/
+WARNING 2025-07-07 21:49:44,911 log 101924 132319084017344 Unauthorized: /api/v1/schedules/appointments/upcoming/
+WARNING 2025-07-07 21:49:44,911 basehttp 101924 132319167899328 "GET /api/v1/schedules/appointments/today/ HTTP/1.1" 401 193
+WARNING 2025-07-07 21:49:44,911 basehttp 101924 132319084017344 "GET /api/v1/schedules/appointments/upcoming/?days=7 HTTP/1.1" 401 193
+WARNING 2025-07-07 21:49:44,914 log 101924 132319167899328 Unauthorized: /api/v1/schedules/appointments/
+WARNING 2025-07-07 21:49:44,914 basehttp 101924 132319167899328 "GET /api/v1/schedules/appointments/?start_date=2025-06-30&end_date=2025-07-30 HTTP/1.1" 401 193
+INFO 2025-07-07 21:49:44,925 basehttp 101924 132319084017344 "POST /api/v1/auth/token/refresh/ HTTP/1.1" 200 241
+INFO 2025-07-07 21:49:44,991 basehttp 101924 132319084017344 "GET /api/v1/schedules/appointments/today/ HTTP/1.1" 200 2
+INFO 2025-07-07 21:49:46,296 basehttp 101924 132319167899328 "GET /api/v1/timetracking/entries/my_entries/ HTTP/1.1" 200 2
+INFO 2025-07-07 21:49:46,299 basehttp 101924 132319084017344 "GET /api/v1/timetracking/entries/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:55:26,838 basehttp 101924 132319084017344 "POST /api/v1/auth/token/ HTTP/1.1" 200 483
+INFO 2025-07-07 21:55:34,952 basehttp 101924 132319084017344 "GET /api/v1/timetracking/entries/ HTTP/1.1" 200 52
+INFO 2025-07-07 21:55:34,956 basehttp 101924 132319167899328 "GET /api/v1/timetracking/entries/my_entries/ HTTP/1.1" 200 2
+WARNING 2025-07-07 21:55:38,579 log 101924 132319167899328 Bad Request: /api/v1/timetracking/entries/
+WARNING 2025-07-07 21:55:38,579 basehttp 101924 132319167899328 "POST /api/v1/timetracking/entries/ HTTP/1.1" 400 46
+WARNING 2025-07-07 21:55:41,839 log 101924 132319167899328 Bad Request: /api/v1/timetracking/entries/
+WARNING 2025-07-07 21:55:41,839 basehttp 101924 132319167899328 "POST /api/v1/timetracking/entries/ HTTP/1.1" 400 46
+INFO 2025-07-07 22:04:22,999 basehttp 101924 132319084017344 "POST /api/v1/auth/token/ HTTP/1.1" 200 483
+INFO 2025-07-07 22:05:38,754 basehttp 101924 132319084017344 "GET /api/v1/customers/customers/ HTTP/1.1" 200 52
+INFO 2025-07-07 22:05:43,904 basehttp 101924 132319084017344 "GET /api/v1/quotes/quotes/ HTTP/1.1" 200 52

@@ -2,6 +2,10 @@
 # SHK-CMS Backend Requirements
 # =============================================================================
 
+# Setup Tools
+setuptools>=65.0.0
+wheel>=0.38.0
+
 # Core Django Framework
 Django==4.2.16
 djangorestframework==3.14.0
@@ -65,7 +69,7 @@ weasyprint==60.2
 
 # Excel/CSV Export
 openpyxl==3.1.2
-# pandas==2.2.0  # Commented out - install separately with: pip install --only-binary=all pandas
+pandas==2.2.0  # Commented out - install separately with: pip install --only-binary=all pandas
 
 # Date/Time Utilities
 python-dateutil==2.8.2
